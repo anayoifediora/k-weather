@@ -1,6 +1,13 @@
-.body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif
+body {
+  
+  background-color: #f0f0f0;
+}
+* {
+  /* font-family: "Lexend Deca", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
 }
 
 code {
@@ -8,7 +15,47 @@ code {
     monospace;
 }
 
-.custom-result {
+.custom-result, .custom-forecast {
   padding: 10px;
   border-radius: 5px;
+  background-image: linear-gradient(rgb(36, 72, 162), white);
+  border: 2px solid rgb(52, 51, 51);
+}
+.custom-forecast {
+  border-radius: 0px;
+}
+.custom-result:hover {
+  cursor: pointer;
+
+}
+.custom-result-bar {
+  background-color: #f0f0f0;
+}
+
+.custom-search-result:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+.custom-delete-btn {
+  width: fit-content;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+.custom-search-btn {
+ background-color: rgb(36, 72, 162);
+ color: white;
+ border-radius: 5px;
+ width: 15%;
+}
+.custom-search-btn:hover {
+  background-color: white;
+  color: rgb(36, 72, 162);
+}
+
+@media screen and (max-width: 992px) {
+  p {
+    font-size: 0.8rem;
+  }
+  
 }
