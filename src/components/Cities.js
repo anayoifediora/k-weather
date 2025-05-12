@@ -55,7 +55,7 @@ const Cities = ({ cityList, setCitiesList }) => {
                     >
                         
                         <div className="d-flex justify-content-between">
-                            <p className="text-white fs-3 fw-medium">{city.name}</p>
+                            <p className="text-white fs-3 fw-medium">{city.name}, {city.sys.country}</p>
                             <p className="text-light fs-3 fw-medium">{Math.floor(city.main.temp)}°C</p>    
                         </div>
                         <div className="d-flex justify-content-between">

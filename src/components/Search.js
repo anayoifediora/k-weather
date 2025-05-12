@@ -24,7 +24,7 @@ function Search () {
           console.error(err);
         }
     }
-    //Update the state in localStorage everytime "citiesList" changes 
+    //Update the state in localStorage every time "citiesList" changes 
     useEffect(() => {
         localStorage.setItem('cities', JSON.stringify(citiesList));
       }, [citiesList]);

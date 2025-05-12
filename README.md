@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+#  K-Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+## Project Description
+K-Weather is a sleek, responsive weather forecast app that provides real-time weather updates and 5-day forecasts for cities around the world. Powered by the [OpenWeatherMap API](https://openweathermap.org/api), K-Weather is built with React and offers a fast and clean user experience.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🔍 Search for any city worldwide
+- 🌡️ View current temperature, weather description, highs & lows
+- 📆 View 5-day forecast with daily details
+- 📍 Save searched cities to localStorage
+- ⚡ Lightning-fast and mobile responsive
+- 💾 Data persistence using browser storage
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+- **React** – Front-end UI library
+- **Bootstrap** – Responsive design and layout
+- **OpenWeatherMap API** – Weather data provider
+- **localStorage** – Persistent data saving
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Screenshots
+Search Results:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Search Screen](./public/Search_results.png)
 
-### `npm run eject`
+Forecast:
+![Forecast Screen](./public/Forecast.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Current Weather:
+![Current Weather](./public/Current%20Weather.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  Usage
+- Type in the name of a city in the search bar and click "search" to view result.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Click on result to display the city, including its current weather information on the page.
 
-## Learn More
+- To view the forecast, click anywhere on the current weather tile.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###  Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Node.js & npm installed
+- An API key from [OpenWeatherMap](https://openweathermap.org/api)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

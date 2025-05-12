@@ -15,6 +15,7 @@ const Results = ({ result, citiesList, setCitiesList, setResult, cityName }) => 
           localStorage.setItem('cities', JSON.stringify(updatedList)); // set to localStorage
         } else {
             alert(`${result.name} already exists in the list.`);
+            window.location.reload();
         }
         //Clears the result element.
         setResult({
