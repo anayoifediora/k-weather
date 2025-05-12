@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-    <div className="App col-lg-7 col-md-10 col-sm-11 w-100">
+    <div className="App w-100">
       <Search/>
     </div>
   );
