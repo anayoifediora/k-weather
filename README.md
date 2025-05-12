@@ -47,6 +47,9 @@ Current Weather:
 
 - To view the forecast, click anywhere on the current weather tile.
 
+## Live Application
+Click [here](https://anayoifediora.github.io/k-weather/) to view the application.
+
 ###  Prerequisites
 
 - Node.js & npm installed
