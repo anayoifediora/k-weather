@@ -18,12 +18,7 @@ const Results = ({ result, citiesList, setCitiesList, setResult, cityName }) => 
             window.location.reload();
         }
         //Clears the result element.
-        setResult({
-            name: " ",
-            sys: {
-                country: " ",
-            }
-        });
+        setResult(null);
       };
       
 
